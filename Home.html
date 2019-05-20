@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="hack.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+ <nav>
+    <div class="nav-wrapper" style="background-color: rgb(20, 99, 102);">
+    	<a href="" data-target="slide-out" class="sidenav-trigger"><i class="material-icons hide-on-large-only">menu</i></a>
+      <a href="#" class="brand-logo" style="font-size: 15px;">Common Pollution Portal</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="Home.html">Buy Pollution free Products</a></li>
+        <li><a href="">Plastic Resale</a></li>
+        <li><a href="file:///C:/Users/autka/Desktop/New%20folder%20(4)/pollutionfree/wastecollection.html">Waste Collection</a></li>
+        <li><a href="">Queries</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul id="slide-out" class="sidenav" style="background-color:rgb(210, 230, 52); ">
+    <li><a class="waves-effect" href="Home.html">Buy Pollution free Products</a></li>
+    <li><a class="waves-effect" href="#!">Plastic resale</a></li>
+    <li><a class="waves-effect" href="wastecollection.html">Waste Collection</a></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">local_phone</i>Contact Us</a></li>
+
+  </ul>
+</div>
+ <div class="card-panel teal lighten-2" style="margin-top: -5px;"><b style="font-size: 15px;">Pollution free products</b></div>
+<div class="row">
+  <div class="col m4">
+<div class="card" style="width: 150px;">
+      <div class="card-image">
+         <img src="oxymask.jpg" style="width: 150px; height: 200px;">
+      </div>
+      <div class="card-content">
+        <p style="color: rgb(171, 40, 78); font-size: 20px;"><b>Oxygen Mask</b></p>
+           <p style="font-size: 30px; color: rgb(3, 93, 29);">&#8377; ---</p>
+      </div>
+      <div class="card-action" style="background-color: rgb(91, 205, 227)">
+        <a href="#">ORDER NOW</a>
+      </div>
+    </div>
+  </div>
+  <div class="col m4">
+<div class="card" style="width: 150px;">
+      <div class="card-image">
+         <img src="spray.jpg" style="width: 150px; height: 200px;">
+      </div>
+      <div class="card-content">
+        <p style="color: rgb(171, 40, 78); font-size: 20px;"><b>Oxygen Spray</b></p>
+           <p style="font-size: 30px; color: rgb(3, 93, 29);">&#8377; ---</p>
+      </div>
+      <div class="card-action" style="background-color: rgb(91, 205, 227)">
+        <a href="#">ORDER NOW</a>
+      </div>
+    </div>
+  </div>
+<div class="col m4">
+<div class="card" style="width: 150px;">
+      <div class="card-image">
+         <img src="waterspray.jpg" style="width: 150px; height: 200px;">
+      </div>
+      <div class="card-content">
+        <p style="color: rgb(171, 40, 78); font-size: 20px;"><b>Water Spray</b></p>
+           <p style="font-size: 30px; color: rgb(3, 93, 29);">&#8377; ---</p>
+      </div>
+      <div class="card-action" style="background-color: rgb(91, 205, 227)">
+        <a href="#">ORDER NOW</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col m4">
+<div class="card" style="width: 150px;">
+      <div class="card-image">
+         <img src="1.jpg" style="width: 150px; height: 200px;">
+      </div>
+      <div class="card-content">
+        <p style="color: rgb(171, 40, 78); font-size: 20px;"><b>Oxygen spray</b></p>
+           <p style="font-size: 30px; color: rgb(3, 93, 29);">&#8377; ---</p>
+      </div>
+      <div class="card-action" style="background-color: rgb(91, 205, 227)">
+        <a href="#">ORDER NOW</a>
+      </div>
+    </div>
+  </div>
+  <div class="col m4">
+<div class="card" style="width: 150px;">
+      <div class="card-image">
+         <img src="2.jpg" style="width: 150px; height: 200px;">
+      </div>
+      <div class="card-content">
+        <p style="color: rgb(171, 40, 78); font-size: 20px;"><b>Oxygen spray</b></p>
+           <p style="font-size: 30px; color: rgb(3, 93, 29);">&#8377; ---</p>
+      </div>
+      <div class="card-action" style="background-color: rgb(91, 205, 227)">
+        <a href="#">ORDER NOW</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<script type="text/javascript">
+   $(".dropdown-trigger").dropdown();
+	
+	 document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+  // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+  // var collapsibleElem = document.querySelector('.collapsible');
+  // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+
+  // Or with jQuery
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+ $(document).ready(function(){
+    $('.slider').slider();
+  });
+</script>
+</html>
